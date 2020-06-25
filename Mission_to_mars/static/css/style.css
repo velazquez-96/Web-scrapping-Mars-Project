@@ -1,0 +1,49 @@
+h1.display-4{
+    font-weight: bold;
+}
+.btn.btn-primary{
+    background-color:royalblue;
+}
+h5.card-title{
+    text-align: center;
+}
+h2.hemispheres_title{
+    text-align: center;
+}
+.card.card-hem{
+    max-width: 100%;
+    margin: 20px;
+    padding: 15px;
+}
+.header_Facts{
+    margin-top: 20px;
+}
+.box{
+    padding-top: 20px;
+}
+.card.card_weather{
+    width: 100%;
+    margin-top: 20px;
+}
+.jumbotron.jumbotron-fluid{
+    background-color: black;
+}
+th, td{
+    padding: 2px;
+    text-align: center;
+}
+
+@media(max-width: 760px) {
+    .card.card-weather{
+        width: 100%;
+    }
+    .jumbotron.jumbotron-fluid{
+        background-color: #f24236;
+    }
+    .header_Facts{
+        text-align: center;
+    }
+    .img-fluid.img_f{
+        border-radius: 8px;
+    }
+  }

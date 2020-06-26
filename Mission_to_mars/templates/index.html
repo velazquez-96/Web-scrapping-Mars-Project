@@ -26,7 +26,7 @@
 <body style="background-color: white;">
     <div class="jumbotron jumbotron-fluid" >
         <div class="container text-center">
-            <h1 class="display-4" style="color: white;">Mission to Mars</h1>
+            <h1 class="display-4">Mission to Mars</h1>
             <a href="/scrape" class="btn btn-primary">Scrape New Data</a>
         </div>
     </div>
@@ -50,7 +50,7 @@
                     <div class="col-md-12 col-sm-12">
                         <div class="card card_weather">
                             <div class="card-body">
-                                <h3 class="card-title">Curent weather on Mars</h3>
+                                <h3 class="card-title">Current weather on Mars</h3>
                                 <p class="card-text">{{info.mars_weather}}</p>
                             </div>
                         </div>
@@ -61,7 +61,7 @@
                         <div class="box2">
                             <h3 class="header_Facts">Mars Facts</h3>
                             <hr>
-                            <table align="center">{{ info.Facts | safe }}</table>
+                            <table>{{ info.Facts | safe }}</table>
                         </div>
                     </div>
                 </div>

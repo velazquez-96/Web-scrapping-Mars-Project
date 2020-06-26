@@ -1,5 +1,6 @@
 h1.display-4{
     font-weight: bold;
+    color: white;
 }
 .btn.btn-primary{
     background-color:royalblue;
@@ -28,12 +29,16 @@ h2.hemispheres_title{
 .jumbotron.jumbotron-fluid{
     background-color: black;
 }
-th, td{
+table{
+    width: 100%;
+}
+th{
     padding: 2px;
     text-align: center;
+    height: 30px;
 }
 
-@media(max-width: 760px) {
+@media(max-width: 770px) {
     .card.card-weather{
         width: 100%;
     }
@@ -45,5 +50,11 @@ th, td{
     }
     .img-fluid.img_f{
         border-radius: 8px;
+    }
+    .box2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
     }
   }

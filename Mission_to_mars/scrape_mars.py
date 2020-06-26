@@ -21,10 +21,9 @@ def scrape():
     html = browser.html
     soup = bs(html, "lxml")
 
-    section = soup.find("div", class_='list_text')
-    print(section)
-    news_title = section.find("div", class_="content_title").text
-    news_p = section.find("div", class_="article_teaser_body").text
+    cont = soup.find("div", class_='image_and_description_container')
+    news_title = cont.find("div", class_="content_title").text
+    news_p = cont.find("div", class_="article_teaser_body").text
 
     #PL Mars Space Images - Featured Image
     url =  "https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars"
@@ -32,12 +31,11 @@ def scrape():
     time.sleep(2)
     browser.click_link_by_partial_text("FULL IMAGE")
     browser.click_link_by_partial_text("more info")
-    browser.click_link_by_partial_text(".jpg")
+
     html = browser.html
     soup = bs(html, "html.parser")
 
-    image = soup.find("img")
-    featured_image = image['src']
+    featured_image = browser.find_link_by_partial_text(".jpg")["href"]
     #print(featured_image)
 
     #Mars Weather
@@ -75,7 +73,7 @@ def scrape():
         images_dict['image_url'] = image_url
         hemisphere_image_urls.append(images_dict)
         browser.back()
-    print(hemisphere_image_urls)
+    
     browser.quit()
 
     info_mars = {"news_title": news_title,

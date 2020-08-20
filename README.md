@@ -2,9 +2,6 @@
 
 This activity was focused on building a web application that scrapes distinct sites for data and display this information in an HTML page. 
 
-## Motivation
-The use of different python modules to collect data in combination with databases and web design was the main motivation to execute this activity.
-
 ## Features
 * Web scrapping using BeautifulSoup, splinter and pandas
 * Use of MongoDB with Flask templating to create a HTML page

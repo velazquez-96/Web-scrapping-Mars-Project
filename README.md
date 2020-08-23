@@ -3,7 +3,7 @@
 This activity was focused on building a web application that scrapes distinct sites for data and display this information in an HTML page. 
 
 ## Features
-* Web scrapping using BeautifulSoup, splinter and pandas
+* Web scrapping from different sites(NASA, twitter) using BeautifulSoup and splinter 
 * Use of MongoDB with Flask templating to create a HTML page
 
 ## Built with 

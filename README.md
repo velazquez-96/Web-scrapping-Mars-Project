@@ -1,6 +1,6 @@
 # web-scraping-challenge
 
-This activity was focused on building a web application that scrapes distinct sites for data and display this information in an HTML page. 
+This activity was focused on building a web application that scrapes distinct sites for data and display this information in an HTML page. The sites that are scrapped are the following:
 
 ## Features
 * Web scrapping from different sites(NASA, twitter) using BeautifulSoup and splinter 

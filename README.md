@@ -1,6 +1,6 @@
 # Web Scrapping(Mars Proyect)
 
-This activity was focused on building a web application that scrapes distinct sites for data and display this information in an HTML page. The sites that are scrapped are the following:
+This activity was focused on **building a web application** that scrapes distinct sites for data and display this information in an HTML page. The sites that are scrapped are the following:
 
 * [NASA Mars News Site](https://mars.nasa.gov/news/) and collect the latest News Title and Paragraph Text
 * JPL Featured Space Image ([website](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars)).
@@ -10,12 +10,14 @@ This activity was focused on building a web application that scrapes distinct si
 
 ## Features
 
-* Web scrapping from different sites(NASA, twitter) using BeautifulSoup and splinter 
-* Use of MongoDB with Flask templating to create a HTML page
+* **Web scrapping** from different sites(NASA, twitter) using BeautifulSoup and splinter 
+* Use of **MongoDB with Flask templating to create a HTML page**
 
 ## Built with 
 
 * Flask
+* HTML/CSS
+* Bootstrap
 
 ## Outcomes
 
